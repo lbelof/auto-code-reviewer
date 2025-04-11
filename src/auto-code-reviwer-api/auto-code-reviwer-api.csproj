@@ -18,4 +18,9 @@
     <Folder Include="Extensions\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\auto-code-reviewer-domain\auto-code-reviewer-domain.csproj" />
+    <ProjectReference Include="..\auto-code-reviewer-infra\auto-code-reviewer-infra.csproj" />
+  </ItemGroup>
+
 </Project>
